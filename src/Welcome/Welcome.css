@@ -1,0 +1,19 @@
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20rem;
+    border-radius: 5px;
+    background-color: #fafafa;
+    
+}
+.welcome-title, .welcome-text{
+    margin: 18px;
+    font-family: 'poppins', sans-serif;
+    font-weight: normal;
+}

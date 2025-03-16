@@ -1,0 +1,31 @@
+.menu-flex{
+    display:flex;
+    margin-left: 20rem;
+    font-family: sans-serif;
+    background-color: #252525;
+}
+
+.menu-item{
+    margin: 0 10rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+}
+.menu-item:hover {
+    color: #C6D03B;
+}
+.menu-item::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: #C6D03B;
+    transition: width 0.8s;
+}
+
+.menu-item:hover::after {
+    width: 100%;
+    color: #C6D03B;
+}
